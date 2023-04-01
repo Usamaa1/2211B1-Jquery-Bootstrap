@@ -1,0 +1,27 @@
+/* .color1{
+    background-color: violet;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: steelblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: aliceblue;
+} */
+
+
+.itm{
+    background-color: aqua;
+}
+.footer{
+    background: rgb(184, 184, 184);
+}
+.list li{
+    list-style: none;
+}
+.list{
+    padding-left: 0px;
+}

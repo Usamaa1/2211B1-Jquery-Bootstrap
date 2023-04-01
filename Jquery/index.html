@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+        .block{
+            width: 100px;
+            height: 100px;
+            background-color: violet;
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    
+<div id="box" class="block"></div>
+<button id="hide">Hide</button>
+<button id="show">show</button>
+<button id="toggle">toggle</button>
+<button id="on">Click Me!</button>
+
+    <script>
+
+     
+
+        $(document).ready(()=>{
+
+
+               // $('#hide').click(()=>{
+        //     $('#box').hide(1000);
+        // })
+
+        // $('#hide').dblclick(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mousedown(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mouseenter(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mouseleave(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mousemove(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mouseout(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mouseover(()=>{
+        //     $('#box').hide(1000);
+        // })
+        // $('#hide').mouseup(()=>{
+        //     $('#box').hide(1000);
+        // })
+
+
+
+        // $('#hide').click(()=>{
+        //     $('#box').fadeOut(1000);
+        // })
+        // $('#show').click(()=>{
+        //     $('#box').fadeIn(1000);
+        // })
+        // $('#toggle').click(()=>{
+        //     $('#box').toggle(1000);
+        // })
+        // $('#toggle').click(()=>{
+        //     $('#box').toggle(1000);
+        // })
+        // $('#toggle').click(()=>{
+        //     $('#box').fadeTo(1000,0.5);
+        // })
+        // $('#toggle').click(()=>{
+        //     $('#box').fadeToggle(1000);
+        // })
+        // $('#hide').hover(()=>{
+        //     $('#box').slideUp(1000);
+        // })
+        // $('#show').click(()=>{
+        //     $('#box').slideDown(1000);
+        // })
+        // $('#toggle').click(()=>{
+        //     $('#box').slideToggle(1000);
+        // })
+
+
+
+
+        //     $('#on').on({
+        //     click: ()=>{
+        //         $('#box').hide(1000)
+        //     },
+        //     mouseenter: ()=>{
+        //         $('#box').css('background', 'red')
+        //     },
+        //     mouseleave: ()=>{
+        //         $('#box').css('background', 'purple')
+
+        //     }
+        // })
+
+
+
+        // $('#box').animate({
+        //     left: '300px',
+        //     width: '200px'
+        // },2000)
+
+
+
+
+        // $('#on').click(()=>{
+        //     $('#box').stop()
+        // })
+
+
+
+        // callback function
+
+        $('#hide').click(()=>{
+            $('#box').hide(2000,()=>{
+                alert('Your box is hidden')
+            })
+        })
+
+
+
+
+
+
+
+
+
+
+
+        })
+
+   
+
+
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
