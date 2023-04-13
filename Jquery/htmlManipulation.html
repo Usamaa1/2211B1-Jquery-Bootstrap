@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="parent">
+        <p class="child"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur eligendi, placeat, in
+            ullam libero quaerat quasi velit excepturi eum id ad ea nulla sapiente nemo minima soluta sed natus
+            aspernatur?</p>
+    </div>
+    <input id="userInput">
+    <button id="btn">Html Manipulation</button>
+
+
+    <input id="userData">
+    <button id="addBtn">Add</button>
+    <ul id="add">
+
+        <!-- prepend -->
+        <li>Ahmed</li>
+        <li>Amjad</li>
+        <!-- append -->
+
+    </ul>
+
+
+
+
+
+
+
+
+    <script>
+
+        $(document).ready(() => {
+
+
+            // for html
+
+            // $('#btn').click(()=>{
+            //    let a = $('.parent').html();
+            //    console.log(a)
+            // })
+
+            $('#btn').click(()=>{
+            $('.parent').html('<h1>more info</h1>');
+            })
+
+
+            // for text
+            // $('#btn').click(() => {
+            //     let a = $('.parent').text();
+            //     console.log(a)
+            // })
+
+
+            // for value
+            //  $('#btn').click(() => {
+            //     let a = $('#userInput').val();
+            //     console.log(a)
+            // })
+
+
+            // for attribute
+            // $('#btn').click(() => {
+            //     let a = $('#userInput').attr({
+            //         "type":"password",
+            //         "name":"user"
+            //     });
+            //     console.log(a)
+            // })
+
+
+            // for append
+            // $('#addBtn').click(() => {
+            //     let data = $('#userData').val()
+            //     console.log(data);
+            //     $('#add').append(`<li>${data}</li>`)
+            // })
+
+
+
+            // for prepend
+
+            //    $('#addBtn').click(() => {
+            //         let data = $('#userData').val()
+            //         console.log(data);
+
+            //         $('#add').prepend(`<li>${data}</li>`)
+
+
+            //     })
+
+
+
+
+        })
+
+
+
+
+    </script>
+</body>
+
+</html>
